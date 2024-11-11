@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1142B8AA2CE10E580032BDEF /* a2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1142B8A72CE10E580032BDEF /* a2.json */; };
+		1142B8AB2CE10E580032BDEF /* a3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1142B8A82CE10E580032BDEF /* a3.json */; };
+		1142B8AD2CE11A670032BDEF /* sy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1142B8AC2CE11A670032BDEF /* sy.json */; };
 		119F1AB72CDD35E500799AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F1AB62CDD35E500799AE2 /* AppDelegate.swift */; };
 		119F1AB92CDD35E500799AE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F1AB82CDD35E500799AE2 /* SceneDelegate.swift */; };
-		119F1ABB2CDD35E500799AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F1ABA2CDD35E500799AE2 /* ViewController.swift */; };
-		119F1ABE2CDD35E500799AE2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 119F1ABD2CDD35E500799AE2 /* Base */; };
 		119F1AC12CDD35E500799AE2 /* firstSlider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 119F1ABF2CDD35E500799AE2 /* firstSlider.xcdatamodeld */; };
 		119F1AC32CDD35E600799AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119F1AC22CDD35E600799AE2 /* Assets.xcassets */; };
 		119F1AC62CDD35E600799AE2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 119F1AC52CDD35E600799AE2 /* Base */; };
+		119F1ACE2CDD367200799AE2 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F1ACD2CDD367200799AE2 /* SliderVC.swift */; };
+		11B632632CDE307400CF7C79 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B632622CDE307400CF7C79 /* SliderCell.swift */; };
+		11B632662CDE429800CF7C79 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 11B632652CDE429800CF7C79 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1142B8A72CE10E580032BDEF /* a2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = a2.json; path = ../../../../../Downloads/a2.json; sourceTree = "<group>"; };
+		1142B8A82CE10E580032BDEF /* a3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = a3.json; path = ../../../../../Downloads/a3.json; sourceTree = "<group>"; };
+		1142B8AC2CE11A670032BDEF /* sy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sy.json; path = ../../../../../Downloads/sy.json; sourceTree = "<group>"; };
 		119F1AB32CDD35E500799AE2 /* firstSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119F1AB62CDD35E500799AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		119F1AB82CDD35E500799AE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		119F1ABA2CDD35E500799AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		119F1ABD2CDD35E500799AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		119F1AC02CDD35E500799AE2 /* firstSlider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firstSlider.xcdatamodel; sourceTree = "<group>"; };
 		119F1AC22CDD35E600799AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119F1AC52CDD35E600799AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119F1AC72CDD35E600799AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119F1ACD2CDD367200799AE2 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
+		11B632622CDE307400CF7C79 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B632662CDE429800CF7C79 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,15 @@
 			children = (
 				119F1AB62CDD35E500799AE2 /* AppDelegate.swift */,
 				119F1AB82CDD35E500799AE2 /* SceneDelegate.swift */,
-				119F1ABA2CDD35E500799AE2 /* ViewController.swift */,
-				119F1ABC2CDD35E500799AE2 /* Main.storyboard */,
+				119F1ACD2CDD367200799AE2 /* SliderVC.swift */,
+				11B632622CDE307400CF7C79 /* SliderCell.swift */,
 				119F1AC22CDD35E600799AE2 /* Assets.xcassets */,
 				119F1AC42CDD35E600799AE2 /* LaunchScreen.storyboard */,
 				119F1AC72CDD35E600799AE2 /* Info.plist */,
 				119F1ABF2CDD35E500799AE2 /* firstSlider.xcdatamodeld */,
+				1142B8AC2CE11A670032BDEF /* sy.json */,
+				1142B8A72CE10E580032BDEF /* a2.json */,
+				1142B8A82CE10E580032BDEF /* a3.json */,
 			);
 			path = firstSlider;
 			sourceTree = "<group>";
@@ -86,6 +97,9 @@
 			dependencies = (
 			);
 			name = firstSlider;
+			packageProductDependencies = (
+				11B632652CDE429800CF7C79 /* Lottie */,
+			);
 			productName = firstSlider;
 			productReference = 119F1AB32CDD35E500799AE2 /* firstSlider.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 119F1AAA2CDD35E500799AE2;
+			packageReferences = (
+				11B632642CDE429800CF7C79 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 119F1AB42CDD35E500799AE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				119F1AC32CDD35E600799AE2 /* Assets.xcassets in Resources */,
+				1142B8AA2CE10E580032BDEF /* a2.json in Resources */,
+				1142B8AD2CE11A670032BDEF /* sy.json in Resources */,
 				119F1AC62CDD35E600799AE2 /* Base in Resources */,
-				119F1ABE2CDD35E500799AE2 /* Base in Resources */,
+				1142B8AB2CE10E580032BDEF /* a3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119F1ABB2CDD35E500799AE2 /* ViewController.swift in Sources */,
 				119F1AB72CDD35E500799AE2 /* AppDelegate.swift in Sources */,
+				11B632632CDE307400CF7C79 /* SliderCell.swift in Sources */,
+				119F1ACE2CDD367200799AE2 /* SliderVC.swift in Sources */,
 				119F1AB92CDD35E500799AE2 /* SceneDelegate.swift in Sources */,
 				119F1AC12CDD35E500799AE2 /* firstSlider.xcdatamodeld in Sources */,
 			);
@@ -151,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		119F1ABC2CDD35E500799AE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				119F1ABD2CDD35E500799AE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		119F1AC42CDD35E600799AE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -222,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -279,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -301,7 +313,6 @@
 				INFOPLIST_FILE = firstSlider/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +340,6 @@
 				INFOPLIST_FILE = firstSlider/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,6 +377,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11B632642CDE429800CF7C79 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11B632652CDE429800CF7C79 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B632642CDE429800CF7C79 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		119F1ABF2CDD35E500799AE2 /* firstSlider.xcdatamodeld */ = {
